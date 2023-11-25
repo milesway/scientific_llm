@@ -21,12 +21,19 @@ To illustrate, see the command below to run it with the llama-2-7b model (`nproc
 CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 1 milestone1.py     --ckpt_dir llama-2-7b/     --tokenizer_path tokenizer.model     --max_seq_len 128 --max_batch_size 1
 ```
 
+### Test for Milestone 1
+ -  [`Grad School Math`](https://github.com/openai/grade-school-math)
+
+    - GSM8K consists of 8.5K high quality grade school math problems created by human problem writers. We segmented these into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ - / *) to reach the final answer. A bright middle school student should be able to solve every problem.
+
+    - Expected value 14.6% accuary (https://huggingface.co/meta-llama/Llama-2-7b)
+
 ### Fine-tuned Chat Models
 
 The fine-tuned models were trained for dialogue applications. To get the expected features and performance for them, a specific formatting defined in [`chat_completion`](https://github.com/facebookresearch/llama/blob/main/llama/generation.py#L212)
 needs to be followed, including the `INST` and `<<SYS>>` tags, `BOS` and `EOS` tokens, and the whitespaces and breaklines in between (we recommend calling `strip()` on inputs to avoid double-spaces).
 
-You can also deploy additional classifiers for filtering out inputs and outputs that are deemed unsafe. See the llama-recipes repo for [an example](https://github.com/facebookresearch/llama-recipes/blob/main/inference/inference.py) of how to add a safety checker to the inputs and outputs of your inference code.
+You can also deploy additional classifiers for filtering out inputs and outputs that are deemed unsafe.
 
 Examples using llama-2-7b-chat:
 
