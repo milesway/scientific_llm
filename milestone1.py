@@ -52,10 +52,10 @@ def main(
         max_seq_len=max_seq_len,
         max_batch_size=max_batch_size,
     )
-
+    # TODO: Temporarily set entry to 4 for testing
     # Load the dataset from the specified file and read the first 4 problems
     with open(dataset_file, 'r') as file:
-        problems = [json.loads(line) for line in file][:4]
+        problems = [json.loads(line) for line in file][:]
 
     total_correct = 0
 
