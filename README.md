@@ -21,16 +21,6 @@ To illustrate, see the command below to run it with the llama-2-7b model (`nproc
 CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 1 milestone1.py     --ckpt_dir llama-2-7b/     --tokenizer_path tokenizer.model     --max_seq_len 128 --max_batch_size 1
 ```
 
-## Inference
-
-Different models require different model-parallel (MP) values:
-
-|  Model | MP |
-|--------|----|
-| 7B     | 1  |
-| 13B    | 2  |
-| 70B    | 8  |
-
 ### Fine-tuned Chat Models
 
 The fine-tuned models were trained for dialogue applications. To get the expected features and performance for them, a specific formatting defined in [`chat_completion`](https://github.com/facebookresearch/llama/blob/main/llama/generation.py#L212)
@@ -46,6 +36,18 @@ torchrun --nproc_per_node 1 example_chat_completion.py \
     --tokenizer_path tokenizer.model \
     --max_seq_len 512 --max_batch_size 6
 
+## Inference
+
+Different models require different model-parallel (MP) values:
+
+|  Model | MP |
+|--------|----|
+| 7B     | 1  |
+| 13B    | 2  |
+| 70B    | 8  |
+
+
+```
 
 ## References
 
