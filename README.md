@@ -24,9 +24,9 @@ CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 1 milestone1.py     --ckpt_dir 
 ### Test for Milestone 1
  -  [`Grad School Math`](https://github.com/openai/grade-school-math)
 
-    - GSM8K consists of 8.5K high quality grade school math problems created by human problem writers. We segmented these into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ - / *) to reach the final answer. A bright middle school student should be able to solve every problem.
+    - GSM8K consists of 8.5K high quality grade school math problems created by human problem writers. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ - / *) to reach the final answer. A bright middle school student should be able to solve every problem.
 
-    - Expected value 14.6% accuary (https://huggingface.co/meta-llama/Llama-2-7b)
+    - Expected value 14.6% accuary. (https://huggingface.co/meta-llama/Llama-2-7b)
 
 ### Fine-tuned Chat Models
 
