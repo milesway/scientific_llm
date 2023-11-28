@@ -1,0 +1,827 @@
+==============959 / 1000====================
+
+{'generation': '\nAnswer: Greg was 12 years old.\nCindy was 5 years old.  Her sister Jan was 2 years older than Cindy. Their oldest sister Marcia was twice as old as Jan. Greg was two years older than Marcia. How old was Greg?'}
+final_answer:  16
+Problem: Cindy was 5 years old.  Her sister Jan was 2 years older than Cindy.  Their oldest sister Marcia was twice as old as Jan.  Greg was two years older than Marcia.  How old was Greg?
+Model Response: 
+Answer: Greg was 12 years old.
+Cindy was 5 years old.  Her sister Jan was 2 years older than Cindy. Their oldest sister Marcia was twice as old as Jan. Greg was two years older than Marcia. How old was Greg?
+Correct Answer: Jan was 2 years older than Cindy who was 5 so 2+5 = <<2+5=7>>7 years old
+Marica was twice as old as Jan so 2*7 = <<2*7=14>>14 years old
+Greg was 2 years older than Marcia who was 14 so 2+14 = <<2+14=16>>16 years old
+#### 16
+Correct: False
+
+==============960 / 1000====================
+
+{'generation': '\nA.\t1240 movies\nB.\t1300 movies\nC.\t1360 movies\nD.\t1400 movies\nE.\t1440 movies\nAnswer: C.\t1360 movies\nJohnny TV makes 25 percent more movies than L&J Productions each year. If  L&J Productions produces 220 movies in a year, how many movies does the two production companies produce in five years combined?\nThis is a ratio problem. We know that Johnny TV makes 25% more movies than L&J Productions each year. We are told that L&J Productions produces 220 movies in a year.\nWe can set up a proportion.\nJohnny TV produces 25% more movies than L&J Productions.\nLet x = Johnny TV’s movies\n'}
+final_answer:  2475
+Problem: Johnny TV makes 25 percent more movies than L&J Productions each year. If  L&J Productions produces 220 movies in a year, how many movies does the two production companies produce in five years combined?
+Model Response: 
+A.      1240 movies
+B.      1300 movies
+C.      1360 movies
+D.      1400 movies
+E.      1440 movies
+Answer: C.      1360 movies
+Johnny TV makes 25 percent more movies than L&J Productions each year. If  L&J Productions produces 220 movies in a year, how many movies does the two production companies produce in five years combined?
+This is a ratio problem. We know that Johnny TV makes 25% more movies than L&J Productions each year. We are told that L&J Productions produces 220 movies in a year.
+We can set up a proportion.
+Johnny TV produces 25% more movies than L&J Productions.
+Let x = Johnny TV’s movies
+
+Correct Answer: Johnny TV makes 25/100*220=<<25/100*220=55>>55 more movies than L&J Productions each year.
+The total number of movies that Johnny TV makes in a year is 220+55=<<220+55=275>>275
+Together, Johnny TV and L&J Productions make 275+220=<<275+220=495>>495 movies in a year.
+In five years, the two companies make 495*5=<<495*5=2475>>2475 movies.
+#### 2475
+Correct: False
+
+==============961 / 1000====================
+
+{'generation': '\nThe number of biscuits that can be made is 12.\n12 inches by 12 inches is 144 square inches.\nEach biscuit is 3 inches by 3 inches.\n3 inches by 3 inches is 9 square inches.\n144 square inches divided by 9 square inches is 16.\nTherefore, 16 biscuits can be made.'}
+final_answer:  16
+Problem: Unique is making biscuits. She has a sheet of dough that is 12 inches by 12 inches. She makes square biscuits and each biscuit is 3 inches by 3 inches. How many biscuits can she make with this dough?
+Model Response: 
+The number of biscuits that can be made is 12.
+12 inches by 12 inches is 144 square inches.
+Each biscuit is 3 inches by 3 inches.
+3 inches by 3 inches is 9 square inches.
+144 square inches divided by 9 square inches is 16.
+Therefore, 16 biscuits can be made.
+Correct Answer: She has 144 square inches of dough because 12 times 12 equals <<12*12=144>>144.
+Each biscuit uses 9 square inches of dough because 3 times 3 equals 9.
+She can make 16 biscuits because 144 divided by 9 equals <<144/9=16>>16.
+#### 16
+Correct: True
+
+==============962 / 1000====================
+
+{'generation': '\nAnswer: 20 children\nLet the total number of guests be x\nThe number of men = 40\nThe number of women = x - 40\nThe number of children = 10\nTotal number of guests = 80\nGiven that the number of men is 40, the number of women is x - 40 and the number of children is 10\n80 = 40 + (x - 40) + 10\nx = 80 - 40 - 10\nx = 80 - 90\nx = 10.\nHence, there are 20 children at the event.'}
+final_answer:  30
+Problem: Oleg is an event organizer. He is organizing an event with 80 guests where 40 of them are men, half the number of men are women, and the rest are children. If he added 10 children to the guest list, how many children will there be at the event?
+Model Response: 
+Answer: 20 children
+Let the total number of guests be x
+The number of men = 40
+The number of women = x - 40
+The number of children = 10
+Total number of guests = 80
+Given that the number of men is 40, the number of women is x - 40 and the number of children is 10
+80 = 40 + (x - 40) + 10
+x = 80 - 40 - 10
+x = 80 - 90
+x = 10.
+Hence, there are 20 children at the event.
+Correct Answer: There are 40/2= <<40/2=20>>20 women at the event.
+Hence, there are a total of 40 + 20 = <<40+20=60>>60 men and women at the event.
+So, the total number of children at the event is 80 - 60 = <<80-60=20>>20.
+After Oleg added 10 children to the guest list, there are a total of 20 + 10 = <<20+10=30>>30 children.
+#### 30
+Correct: False
+
+==============963 / 1000====================
+
+{'generation': ''}
+final_answer:  4
+Problem: Kevin holds the world record for eating the biggest quantity of hot wings in 8 minutes. He can eat 64 wings without stopping. Alan, a boy who loves hot wings, wants to beat Kevin's record.  He is currently able to eat 5 hot wings per minute. How many more wings must he eat per minute to beat Kevin's record?
+Model Response: 
+Correct Answer: Knowing Kevin's record of eating 70 wings in 8 minutes or 64 / 8 = 8 wings in a minute
+Alan must increase his ability to eat 5 wings per minute to 8 - 5 = 3 wings per minute to equal Kevin's world record.
+To beat Kevin, Alan must eat 3+1 = <<3+1=4>>4 hot wings per minute.
+#### 4
+Correct: False
+
+==============964 / 1000====================
+
+{'generation': '\nIt is given that the total cost of the meal is $67.\nWe know that the total cost of the meal is $67.\nTherefore, the cost of the meal for each person is $67/3 = $22.33.\nSince the cost of the meal for each person is $22.33, the amount that each person needs to contribute to the bill is $22.33.\nTherefore, the amount that each person needs to contribute to the bill is $22.33.'}
+final_answer:  21
+Problem: Sarah, Mary, and Tuan decided to go to the restaurant for a meal. They decided to split the cost of the meal evenly. If the total price of the meal comes to $67 and they have a coupon for $4, how much does each person need to contribute to the bill?
+Model Response: 
+It is given that the total cost of the meal is $67.
+We know that the total cost of the meal is $67.
+Therefore, the cost of the meal for each person is $67/3 = $22.33.
+Since the cost of the meal for each person is $22.33, the amount that each person needs to contribute to the bill is $22.33.
+Therefore, the amount that each person needs to contribute to the bill is $22.33.
+Correct Answer: After using the coupon, the final price comes to 67 - 4 = <<67-4=63>>63 dollars.
+With three people, they each need to pay 63 / 3 = <<63/3=21>>21 dollars each.
+#### 21
+Correct: False
+
+==============965 / 1000====================
+
+{'generation': "\nA. 400 people\nB. 800 people\nC. 1200 people\nD. 1600 people\nE. 2400 people\nI think that the answer is C\nI think that the answer is C.\nI'm not sure how they got the answer.\nI think the answer is E.\nI think the answer is A.\nI think the answer is B.\nI think the answer is D.\nI think the answer is C.\nI think the answer is D.\nI think the answer is E.\nI think the answer is A.\nI think the answer is E.\nI think the answer is C.\nI think the answer is B.\nI think the answer is D.\nI think the answer is E.\nI think the answer is B.\nI think the answer is A.\nI think the answer is B.\nI think the answer is E.\nI think the answer is A"}
+final_answer:  192
+Problem: Ryan's party was 4 times as huge as Taylor's birthday party. If both parties combined had 240 people, how many people were there at Ryan's party?
+Model Response: 
+A. 400 people
+B. 800 people
+C. 1200 people
+D. 1600 people
+E. 2400 people
+I think that the answer is C
+I think that the answer is C.
+I'm not sure how they got the answer.
+I think the answer is E.
+I think the answer is A.
+I think the answer is B.
+I think the answer is D.
+I think the answer is C.
+I think the answer is D.
+I think the answer is E.
+I think the answer is A.
+I think the answer is E.
+I think the answer is C.
+I think the answer is B.
+I think the answer is D.
+I think the answer is E.
+I think the answer is B.
+I think the answer is A.
+I think the answer is B.
+I think the answer is E.
+I think the answer is A
+Correct Answer: To get the number of people at Taylor's party, we'll assume there were n people at his party.
+The total number of people at Ryan's party is 4*n, four times the number of attendees at Taylor's party.
+Combined, there were 4n+n = 240 people at both parties.
+This translates to 5n=240.
+The total number of people at Taylor's party is n=240/5
+There were n=<<48=48>>48 people at Taylor's party.
+Since Ryan's party was 4 times as huge as Taylor's party, at Ryan's party, there were 48*4 = <<48*4=192>>192 people.
+#### 192
+Correct: False
+
+==============966 / 1000====================
+
+{'generation': "\nThe current temperature is 84 degrees.\nIn one hour, the temperature will decrease to 3/4 of its current temperature.\nIf the current temperature is 84 degrees, then the temperature will decrease to 24 degrees.\nAnswer: The temperature will decrease by 24 degrees.\nIn one hour, Addison mountain's temperature will decrease to 3/4 of its temperature. If the current temperature of the mountain is 84 degrees, what will the temperature decrease by?\nAnswer: The temperature will decrease by 24 degrees.\nIn one hour, Addison mountain's temperature will decrease to 3/4 of its temperature.\nIf the current temperature of the mountain is 84 degrees, then the temperature will decrease to 24 degrees."}
+final_answer:  21
+Problem: In one hour, Addison mountain's temperature will decrease to 3/4  of its temperature. If the current temperature of the mountain is 84 degrees, what will the temperature decrease by?
+Model Response: 
+The current temperature is 84 degrees.
+In one hour, the temperature will decrease to 3/4 of its current temperature.
+If the current temperature is 84 degrees, then the temperature will decrease to 24 degrees.
+Answer: The temperature will decrease by 24 degrees.
+In one hour, Addison mountain's temperature will decrease to 3/4 of its temperature. If the current temperature of the mountain is 84 degrees, what will the temperature decrease by?
+Answer: The temperature will decrease by 24 degrees.
+In one hour, Addison mountain's temperature will decrease to 3/4 of its temperature.
+If the current temperature of the mountain is 84 degrees, then the temperature will decrease to 24 degrees.
+Correct Answer: In one hour, Addison mountain's temperature will decrease to 3/4 of the temperature it is now, meaning the temperature will decrease to 3/4*84=<<3/4*84=63>>63 degrees.
+The temperature decrease will be 84-63=<<84-63=21>>21 degrees
+#### 21
+Correct: False
+
+==============967 / 1000====================
+
+{'generation': '\nLet x = number of blue shirts\nLet y = number of brown shirts\nThen x + y = 26\nAnd x/2 + y/3 = 36\nx/2 = 36 - y/3\nx = 36 - y/3\nx - y/3 = 36\nx - (y/3) = 36\nx - y = 36 - (y/3)\nx - y = 36 - y/3\nx - y = 36 - y\nx - y = 36\nx - y = 26 - 36\nx - y = -10\nTherefore, Mary has 26 blue shirts and 36 brown shirts. If she gives away half of her blue shirts and a third of her brown shirts, she has 10 shirts left.\nNote:'}
+final_answer:  37
+Problem: Mary has 26 blue shirts and 36 brown shirts. If she gives away half of her blue shirts and a third of her brown shirts, how many shirts does she have left?
+Model Response: 
+Let x = number of blue shirts
+Let y = number of brown shirts
+Then x + y = 26
+And x/2 + y/3 = 36
+x/2 = 36 - y/3
+x = 36 - y/3
+x - y/3 = 36
+x - (y/3) = 36
+x - y = 36 - (y/3)
+x - y = 36 - y/3
+x - y = 36 - y
+x - y = 36
+x - y = 26 - 36
+x - y = -10
+Therefore, Mary has 26 blue shirts and 36 brown shirts. If she gives away half of her blue shirts and a third of her brown shirts, she has 10 shirts left.
+Note:
+Correct Answer: Mary gives away 26/2 = <<26/2=13>>13 blue shirts.
+Mary gives away 36/3 = <<36/3=12>>12 brown shirts.
+Mary has 26-13 = <<26-13=13>>13 blue shirts left.
+Mary has 36-12 = <<36-12=24>>24 brown shirts left.
+Mary has 13+24 = <<13+24=37>>37 shirts left.
+#### 37
+Correct: False
+
+==============968 / 1000====================
+
+{'generation': '\n20% of 45 = 9\n100% - 9 = 45\nThere are 9 frogs in Lake Crystal and 45 frogs in Lassie Lake.\nQ: Lake Crystal has twenty percent fewer frogs than Lassie Lake. If Lassie Lake has forty-five frogs, how many frogs are there in total in the two lakes?\nLake crystal has 20 percent fewer frogs than Lassie Lake. If Lassie Lake has 45 frogs, how many frogs are there in total in the two lakes?\nLake Crystal has 20% fewer frogs than Lassie Lake. If Lassie Lake has 45 frogs, how many frogs are there in total in the two lakes?\nLake Crystal has 20% fewer frogs than Lassie Lake. If Lassie Lake has 45 frogs, how many fro'}
+final_answer:  81
+Problem: Lake Crystal has twenty percent fewer frogs than Lassie Lake. If Lassie Lake has forty-five frogs, how many frogs are there in total in the two lakes?
+Model Response: 
+20% of 45 = 9
+100% - 9 = 45
+There are 9 frogs in Lake Crystal and 45 frogs in Lassie Lake.
+Q: Lake Crystal has twenty percent fewer frogs than Lassie Lake. If Lassie Lake has forty-five frogs, how many frogs are there in total in the two lakes?
+Lake crystal has 20 percent fewer frogs than Lassie Lake. If Lassie Lake has 45 frogs, how many frogs are there in total in the two lakes?
+Lake Crystal has 20% fewer frogs than Lassie Lake. If Lassie Lake has 45 frogs, how many frogs are there in total in the two lakes?
+Lake Crystal has 20% fewer frogs than Lassie Lake. If Lassie Lake has 45 frogs, how many fro
+Correct Answer: Lake Crystal has twenty percent fewer frogs than Lassie Lake, a total of 20/100*45=<<20/100*45=9>>9 frogs
+The total number of frogs in Lake Crystal is 45-9=<<45-9=36>>36
+Together, the two lakes have 36+45=<<36+45=81>>81 frogs
+#### 81
+Correct: False
+
+==============969 / 1000====================
+
+{'generation': '\nJohann and two friends are to deliver 180 pieces of certified mail.\nHis friends each deliver 41 pieces of mail.\nHow many pieces of mail does Johann need to deliver?\nThe three friends are to deliver 180 pieces of mail.\nJohann is to deliver 41 pieces of mail.\nJohann’s share is 41 out of 180.\nJohann needs to deliver 139 pieces of mail.\nQ: Johann and two friends are to deliver 180 pieces of certified mail. His friends each deliver 41 pieces of mail. How many pieces of mail does Johann need to deliver?\nJohann and two friends are to deliver 180 pieces of certified mail. His friends each deliver 41 pieces of mail. How many pieces of mail does Johann need to deliver?Johann and two friends are to deliver 180 pieces of certified mail. His friends each deliver 4'}
+final_answer:  98
+Problem: Johann and two friends are to deliver 180 pieces of certified mail. His friends each deliver 41 pieces of mail. How many pieces of mail does Johann need to deliver?
+Model Response: 
+Johann and two friends are to deliver 180 pieces of certified mail.
+His friends each deliver 41 pieces of mail.
+How many pieces of mail does Johann need to deliver?
+The three friends are to deliver 180 pieces of mail.
+Johann is to deliver 41 pieces of mail.
+Johann’s share is 41 out of 180.
+Johann needs to deliver 139 pieces of mail.
+Q: Johann and two friends are to deliver 180 pieces of certified mail. His friends each deliver 41 pieces of mail. How many pieces of mail does Johann need to deliver?
+Johann and two friends are to deliver 180 pieces of certified mail. His friends each deliver 41 pieces of mail. How many pieces of mail does Johann need to deliver?Johann and two friends are to deliver 180 pieces of certified mail. His friends each deliver 4
+Correct Answer: Friends = 41 * 2 = <<41*2=82>>82
+Johann = 180 - 82 = <<180-82=98>>98
+Johann must deliver 98 pieces of mail.
+#### 98
+Correct: False
+
+==============970 / 1000====================
+
+{'generation': '\nA. $5 B. $8 C. $15 D. $21\nE. $25\nThe correct answer is $25.\nAnnabelle collected a weekly allowance of $30. She spent a third of it buying junk food, then spent another $8 on sweets. Out of guilt she decides to save the rest.\nHow much did she save?\nLet x represent the amount of money she saved.\nShe spent a third of it buying junk food, then spent another $8 on sweets.\nShe spent 1/3 of the $30 allowance on junk food.\n1/3 x 30 = $10\nShe spent $8 on sweets.\n8 + 10 = $18\nShe saved the rest of the $30 allowance.\nx + 30 = $25\nx = $25'}
+final_answer:  12
+Problem: Annabelle collected a weekly allowance of $30. She spent a third of it buying junk food, then spent another $8 on sweets. Out of guilt she decides to save the rest. How much did she save?
+Model Response: 
+A. $5 B. $8 C. $15 D. $21
+E. $25
+The correct answer is $25.
+Annabelle collected a weekly allowance of $30. She spent a third of it buying junk food, then spent another $8 on sweets. Out of guilt she decides to save the rest.
+How much did she save?
+Let x represent the amount of money she saved.
+She spent a third of it buying junk food, then spent another $8 on sweets.
+She spent 1/3 of the $30 allowance on junk food.
+1/3 x 30 = $10
+She spent $8 on sweets.
+8 + 10 = $18
+She saved the rest of the $30 allowance.
+x + 30 = $25
+x = $25
+Correct Answer: A third of $30 is $30*(1/3) = $<<30*(1/3)=10>>10
+She spent $10 from $30 leaving $30-$10 = $20
+She spent another $8 leaving $20-$8 = $<<20-8=12>>12 which she saved
+#### 12
+Correct: False
+
+==============971 / 1000====================
+
+{'generation': "\nI got 21, but I don't know how.\nI think you are right. I think it's 21.\nIt starts on floor 9, goes down 7 floors, then up 3 floors, then up 8 floors.\nYou have to take the number of floors down 7 floors, then add the number of floors up 3 floors, then add the number of floors up 8 floors.\nSo, the answer is 21.\nI'm not sure how to do it but I think it's 21.\nI think it's 21.\n21 floors.\nIt goes down 7, up 3, up 8.\nSo 21 floors.\nIt goes down 7 floors, then up 3 floors, then up 8 floors.\nSo there are 21"}
+final_answer:  13
+Problem: An elevator is on the 9th floor. It goes down 7 floors, then up 3  floors, then up 8 floors. If the elevator is on the top floor, how many floors are there in the building?
+Model Response: 
+I got 21, but I don't know how.
+I think you are right. I think it's 21.
+It starts on floor 9, goes down 7 floors, then up 3 floors, then up 8 floors.
+You have to take the number of floors down 7 floors, then add the number of floors up 3 floors, then add the number of floors up 8 floors.
+So, the answer is 21.
+I'm not sure how to do it but I think it's 21.
+I think it's 21.
+21 floors.
+It goes down 7, up 3, up 8.
+So 21 floors.
+It goes down 7 floors, then up 3 floors, then up 8 floors.
+So there are 21
+Correct Answer: From the 9th floor, the elevator went down to the 9 - 7 = <<9-7=2>>2nd floor.
+Then went up to the 2 + 3 = <<2+3=5>>5th floor.
+Then, went up to the 5 + 8 = <<5+8=13>>13th floor; hence there are 13 floors in the building.
+#### 13
+Correct: False
+
+==============972 / 1000====================
+
+{'generation': "\nThe buyers who came to Mr. Brandon's shop yesterday bought goods worth $80. If 2/5 of the total amount of sales Mr. Brandon made yesterday were credit sales, and the rest were cash sales, how much did Mr. Brandon get from cash sales?\nThe buyers who came to Mr. Brandon's shop yesterday bought goods worth $80. If 2/5 of the total amount of sales Mr. Brandon made yesterday were credit sales, and the rest were cash sales, how much did Mr. Brandon get from cash sales? 30\nThe buyers who came to Mr. Brandon's shop yesterday bought goods worth $80. If 2/5 of the total amount of sales Mr. Brandon made yesterday were credit sales, and the rest were cash sales, how much did Mr. Brandon get from c"}
+final_answer:  48
+Problem: The buyers who came to Mr. Brandon's shop yesterday bought goods worth $80. If 2/5 of the total amount of sales Mr. Brandon made yesterday were credit sales, and the rest were cash sales, how much did Mr. Brandon get from cash sales?
+Model Response: 
+The buyers who came to Mr. Brandon's shop yesterday bought goods worth $80. If 2/5 of the total amount of sales Mr. Brandon made yesterday were credit sales, and the rest were cash sales, how much did Mr. Brandon get from cash sales?
+The buyers who came to Mr. Brandon's shop yesterday bought goods worth $80. If 2/5 of the total amount of sales Mr. Brandon made yesterday were credit sales, and the rest were cash sales, how much did Mr. Brandon get from cash sales? 30
+The buyers who came to Mr. Brandon's shop yesterday bought goods worth $80. If 2/5 of the total amount of sales Mr. Brandon made yesterday were credit sales, and the rest were cash sales, how much did Mr. Brandon get from c
+Correct Answer: 2/5 of the total amount of sales Mr. Brandon made yesterday, which were credit purchases, were worth 2/5*$80=$<<2/5*80=32>>32
+The cash sales that Mr. Brandon made yesterday was $80-$32=$<<80-32=48>>48
+#### 48
+Correct: False
+
+==============973 / 1000====================
+
+{'generation': '\nWe know that 20 muffins are divided between 5 people. So we can write that 20/5 = x.\nThe question asks us to find the value of x.\nWe know that the value of x is equal to the number of muffins each person will get.\nSo we can write that x = 4.\nTherefore, each person will have 4 muffins.\nIn this lesson, we learned how to solve word problems that involve dividing a number by a fraction.\nIn the next lesson, we will learn how to divide a fraction by a number.'}
+final_answer:  4
+Problem: Jessie invited 4 friends over to play. They made muffins for a snack and Jesse wants to divide them equally between herself and her friends. If they made 20 muffins in total, how many will each person have?
+Model Response: 
+We know that 20 muffins are divided between 5 people. So we can write that 20/5 = x.
+The question asks us to find the value of x.
+We know that the value of x is equal to the number of muffins each person will get.
+So we can write that x = 4.
+Therefore, each person will have 4 muffins.
+In this lesson, we learned how to solve word problems that involve dividing a number by a fraction.
+In the next lesson, we will learn how to divide a fraction by a number.
+Correct Answer: There will be a total of 1 + 4 = <<1+4=5>>5 people who will share the muffins.
+Each of them will have 20/5 = <<20/5=4>>4 muffins.
+#### 4
+Correct: True
+
+==============974 / 1000====================
+
+{'generation': "\nLet's say he gets fouled 5 times in each game.\nHe gets 2 shots per foul.\nHe gets 10 shots per game.\nHe plays in 20 games.\nSo he gets 200 shots.\n200 * 0.7 = 140 shots.\nI'm not sure if I'm doing this right, but I'm pretty sure that's the correct answer.\nYou are correct.  This is a very common question.  In fact, I have seen it in many tests.  It is a good one.\nI'm not sure what you mean by 100% of the games.  But, if you mean he plays in 80% of the games, then he will get 20 shots.  If you mean he plays in 100% of the games"}
+final_answer:  112
+Problem: John hits 70% of his free throws.  For every foul he gets 2 shots.  He gets fouled 5 times a game.  How many free throws does he get if he plays in 80% of the 20 games the team plays?
+Model Response: 
+Let's say he gets fouled 5 times in each game.
+He gets 2 shots per foul.
+He gets 10 shots per game.
+He plays in 20 games.
+So he gets 200 shots.
+200 * 0.7 = 140 shots.
+I'm not sure if I'm doing this right, but I'm pretty sure that's the correct answer.
+You are correct.  This is a very common question.  In fact, I have seen it in many tests.  It is a good one.
+I'm not sure what you mean by 100% of the games.  But, if you mean he plays in 80% of the games, then he will get 20 shots.  If you mean he plays in 100% of the games
+Correct Answer: John plays in 20*.8=<<20*.8=16>>16 games
+That means he gets fouled 16*5=<<16*5=80>>80 fouls
+So he gets 80*2=<<80*2=160>>160 foul shots
+So he makes 160*.7=<<160*.7=112>>112 free throws
+#### 112
+Correct: False
+
+==============975 / 1000====================
+
+{'generation': '\nLudwig earns $10 a day, so he earns $70 a week.'}
+final_answer:  55
+Problem: Ludwig works 7 days a week and he usually works half of the day during Friday, Saturday, and Sunday. If his daily salary is $10, how much does he earn every week?
+Model Response: 
+Ludwig earns $10 a day, so he earns $70 a week.
+Correct Answer: Ludwig earns a total of $10 x 4 = $<<10*4=40>>40 from Monday to Thursday.
+He earns $10/2= $<<10/2=5>>5 per day on Friday, Saturday, and Sunday.
+So, his total salary for Friday, Saturday, Sunday is $5 x 3 = $<<5*3=15>>15.
+Therefore, his total weekly salary is $40 + $15 = $<<40+15=55>>55.
+#### 55
+Correct: False
+
+==============976 / 1000====================
+
+{'generation': "\nTommy's neighborhood is a rectangle, and he runs in a straight line.\nTommy's neighborhood is a rectangle, and he runs in a straight line. If he runs 100 meters, and the length of his neighborhood is 200 meters, how many meters is he from the end of his neighborhood?\nTommy's neighborhood is a rectangle, and he runs in a straight line. If he runs 100 meters, and the length of his neighborhood is 200 meters, how many meters is he from the end of his neighborhood? Tommy's neighborhood is a rectangle, and he runs in a straight line. If he runs 100 meters, and the length of his neighborhood is 200 meters, how many meters is he from the end of his neighborhood?\nTommy's neighborhood is a rectangle, and he runs"}
+final_answer:  100
+Problem: Tommy goes for a run around his neighborhood and decides to calculate how many wheels he saw. All the trucks in his neighborhood have 4 wheels and all the cars in his neighborhood also have 4 wheels. If he saw 12 trucks and 13 cars, how many wheels did he see?
+Model Response: 
+Tommy's neighborhood is a rectangle, and he runs in a straight line.
+Tommy's neighborhood is a rectangle, and he runs in a straight line. If he runs 100 meters, and the length of his neighborhood is 200 meters, how many meters is he from the end of his neighborhood?
+Tommy's neighborhood is a rectangle, and he runs in a straight line. If he runs 100 meters, and the length of his neighborhood is 200 meters, how many meters is he from the end of his neighborhood? Tommy's neighborhood is a rectangle, and he runs in a straight line. If he runs 100 meters, and the length of his neighborhood is 200 meters, how many meters is he from the end of his neighborhood?
+Tommy's neighborhood is a rectangle, and he runs
+Correct Answer: He saw 25 total vehicles because 12 plus 13 equals <<12+13=25>>25.
+He saw 100 wheels because 25 times 4 equals <<25*4=100>>100.
+#### 100
+Correct: True
+
+==============977 / 1000====================
+
+{'generation': '\nSo there are 110 ants, 60 of which are worker ants. 20% of those are male, so there are 12 male worker ants. 50% of the remaining 48 worker ants are female, so there are 24 female worker ants.  So there are 24 female worker ants and 12 male worker ants.\nIn a school there are 300 students. 15 percent of the students are female. 40 percent of the students are male.  If 25 percent of the students are in the band, how many female students are in the band?\nSo there are 300 students. 15% of those are female. 40% of those are male. 25% of those are in the band.  So there are 15% of the 300 students, which is 45 students. 40%'}
+final_answer:  44
+Problem: Stephen has 110 ants in his ant farm.  Half of the ants are worker ants, 20 percent of the worker ants are male.  How many female worker ants are there?
+Model Response: 
+So there are 110 ants, 60 of which are worker ants. 20% of those are male, so there are 12 male worker ants. 50% of the remaining 48 worker ants are female, so there are 24 female worker ants.  So there are 24 female worker ants and 12 male worker ants.
+In a school there are 300 students. 15 percent of the students are female. 40 percent of the students are male.  If 25 percent of the students are in the band, how many female students are in the band?
+So there are 300 students. 15% of those are female. 40% of those are male. 25% of those are in the band.  So there are 15% of the 300 students, which is 45 students. 40%
+Correct Answer: Worker ants:110/2=<<110/2=55>>55 ants
+Male worker ants:55(.20)=11
+Female worker ants:55-11=<<55-11=44>>44 ants
+#### 44
+Correct: False
+
+==============978 / 1000====================
+
+{'generation': "\nI'm not sure how to answer this question.  I've tried to explain it to my students and they still aren't getting it.  I've also tried to explain it to my co-workers and they still aren't getting it.  I've tried to explain it to my family and they still aren't getting it.  I've tried to explain it to my students again and they still aren't getting it.  I've tried to explain it to my co-workers again and they still aren't getting it.  I've tried to explain it to my family again and they still aren't getting it.  I've tried to explain it to my students again and they still aren't getting it.  I've tried to explain it to my co-workers again and they still aren't"}
+final_answer:  24
+Problem: At football tryouts, the coach wanted to see who could throw the ball the farthest.  Parker threw the ball 16 yards.  Grant threw the ball 25 percent farther than Parker and Kyle threw the ball 2 times farther than Grant.  Compared to Parker, how much farther did Kyle throw the ball?
+Model Response: 
+I'm not sure how to answer this question.  I've tried to explain it to my students and they still aren't getting it.  I've also tried to explain it to my co-workers and they still aren't getting it.  I've tried to explain it to my family and they still aren't getting it.  I've tried to explain it to my students again and they still aren't getting it.  I've tried to explain it to my co-workers again and they still aren't getting it.  I've tried to explain it to my family again and they still aren't getting it.  I've tried to explain it to my students again and they still aren't getting it.  I've tried to explain it to my co-workers again and they still aren't
+Correct Answer: Grant threw the ball 25% farther than Parker. If Parker threw the ball 16 yards, then Grant threw it 16*.25 = <<16*.25=4>>4 farther
+In total, Grant threw the ball 16+4 = <<16+4=20>>20 yards
+Kyle threw 2 times farther than Grant so Kyle threw the ball 2*20 = <<2*20=40>>40 yards
+If Kyle threw the ball for 40 yards and Parker threw for 16 then Kyle threw the ball 40-16 = <<24=24>>24 yards farther
+#### 24
+Correct: False
+
+==============979 / 1000====================
+
+{'generation': '\nAnswer: 208 corn cobs\nTotal number of rows in 2 fields = 13 + 16 = 29\nNumber of corn cobs in 1 row = 4\nTotal number of corn cobs = 4 x 29 = 116\nTotal number of corn cobs = 116 + 116 = 232\nTotal number of corn cobs = 232\nNumber of corn cobs = 232 / 2 = 116\nA farm is growing corn in 2 fields. One of the fields has 13 full rows of corn cobs, and the other field has 16 full rows of corn cobs. If each row contains 4 corn cobs, how many corn cobs has the farm grown?'}
+final_answer:  116
+Problem: A farm is growing corn in 2 fields. One of the fields has 13 full rows of corn cobs, and the other field has 16 full rows of corn cobs. If each row contains 4 corn cobs, how many corn cobs has the farm grown?
+Model Response: 
+Answer: 208 corn cobs
+Total number of rows in 2 fields = 13 + 16 = 29
+Number of corn cobs in 1 row = 4
+Total number of corn cobs = 4 x 29 = 116
+Total number of corn cobs = 116 + 116 = 232
+Total number of corn cobs = 232
+Number of corn cobs = 232 / 2 = 116
+A farm is growing corn in 2 fields. One of the fields has 13 full rows of corn cobs, and the other field has 16 full rows of corn cobs. If each row contains 4 corn cobs, how many corn cobs has the farm grown?
+Correct Answer: In the first field, there are 13 rows * 4 corn cobs/row = <<13*4=52>>52 corn cobs.
+In the second field, there are 16 rows * 4 corn cobs/row = <<16*4=64>>64 corn cobs.
+So the farm has grown a total of 52 corn cobs + 64 corn cobs = <<52+64=116>>116 corn cobs.
+#### 116
+Correct: True
+
+==============980 / 1000====================
+
+{'generation': "\n\n## Solution\n\n$21$\n\n## Proof\n\nLet $x$ be the total number of stripes on Olga's shoes.\n\nLet $y$ be the total number of stripes on Rick's shoes.\n\nLet $z$ be the total number of stripes on Hortense's shoes.\n\nWe have:\n\n$x + y = 3$\n\nand\n\n$y + z = 3$\n\nbut:\n\n$x + z = 2$\n\nSo:\n\n$x + y + z = 6$\n\nSo:\n\n$x + y + z + x + y + z = 12$\n\nand so:\n\n$2x + y + z = 12$\n\n"}
+final_answer:  22
+Problem: Olga has three stripes on the side of each of her tennis shoes.  Rick has one less stripe per shoe than does Olga.  But Hortense has double the number of stripes on her tennis shoes as does Olga.  In total, what is the combined number of stripes on all of their pairs of tennis shoes?
+Model Response: 
+
+## Solution
+
+$21$
+
+## Proof
+
+Let $x$ be the total number of stripes on Olga's shoes.
+
+Let $y$ be the total number of stripes on Rick's shoes.
+
+Let $z$ be the total number of stripes on Hortense's shoes.
+
+We have:
+
+$x + y = 3$
+
+and
+
+$y + z = 3$
+
+but:
+
+$x + z = 2$
+
+So:
+
+$x + y + z = 6$
+
+So:
+
+$x + y + z + x + y + z = 12$
+
+and so:
+
+$2x + y + z = 12$
+
+
+Correct Answer: Rick has one less than three stripes, or 3-1=2 stripes on each tennis shoe.
+Hortense has double the 3 stripes that Olga has, or a total of 3*2=<<3*2=6>>6 stripes per shoe.
+Since each of them has two tennis shoes per pair, then the total number of stripes on all of their shoes is 2*(3+2+6)=<<2*(3+2+6)=22>>22 stripes
+#### 22
+Correct: False
+
+==============981 / 1000====================
+
+{'generation': '\na. 6 b. 8 c. 10 d. 12\n3. What is the difference between a 3-digit number and a 4-digit number?\na. 1 b. 2 c. 3 d. 4\n4. The number of fish in a pond is 4 less than 3 times the number of fish in the pond. If there are 100 fish in the pond, how many fish are there in the pond?\na. 200 b. 300 c. 400 d. 500\n5. If 5 is subtracted from a number, the result is 3. What is the number?\na. 15 b. 16 c. 17 d. 18\n6. If 3 times a number is subtracted'}
+final_answer:  134
+Problem: Frank bakes two trays of cookies per day, for 6 days. Frank eats one cookie each day to make sure they taste good. Ted comes over on the sixth day and eats 4 cookies. If each tray makes 12 cookies, how many cookies are left when Ted leaves?
+Model Response: 
+a. 6 b. 8 c. 10 d. 12
+3. What is the difference between a 3-digit number and a 4-digit number?
+a. 1 b. 2 c. 3 d. 4
+4. The number of fish in a pond is 4 less than 3 times the number of fish in the pond. If there are 100 fish in the pond, how many fish are there in the pond?
+a. 200 b. 300 c. 400 d. 500
+5. If 5 is subtracted from a number, the result is 3. What is the number?
+a. 15 b. 16 c. 17 d. 18
+6. If 3 times a number is subtracted
+Correct Answer: Frank bakes 2 * 12 = <<2*12=24>>24 cookies per day.
+Frank bakes a total of 24 * 6 = <<24*6=144>>144 cookies.
+Frank eats 1 * 6 = <<1*6=6>>6 cookies.
+After Ted leaves, there are 144 - 6 - 4 = <<144-6-4=134>>134
+#### 134
+Correct: False
+
+==============982 / 1000====================
+
+{'generation': "\nI know the answer is 2.5 but I don't know how to get there.\nThe answer is 2.5 because Betty is 24 - 12 = 12 inches shorter than Carter.\nBetty is 24 inches shorter than Carter.\n24 - 12 = 12 inches.\nBetty is 12 inches shorter than Carter.\n2.5 feet is 12 inches.\n2.5 feet is 30 inches.\n2.5 feet is 30 inches.\nI think the answer is 2.5 but I don't know how to get there.\nI think the answer is 2.5 but I don't know how to get there. I know it's 24 - 12 = 12 inches but I don't know how to get 12 inches to 2.5 feet.\nBetty is 12 inches shorter than Carter.  Betty is 24 inches shorter than Carter"}
+final_answer:  3
+Problem: Carter is twice as tall as his 24” tall dog.  Betty is 12” shorter than Carter.  How tall is Betty in feet?
+Model Response: 
+I know the answer is 2.5 but I don't know how to get there.
+The answer is 2.5 because Betty is 24 - 12 = 12 inches shorter than Carter.
+Betty is 24 inches shorter than Carter.
+24 - 12 = 12 inches.
+Betty is 12 inches shorter than Carter.
+2.5 feet is 12 inches.
+2.5 feet is 30 inches.
+2.5 feet is 30 inches.
+I think the answer is 2.5 but I don't know how to get there.
+I think the answer is 2.5 but I don't know how to get there. I know it's 24 - 12 = 12 inches but I don't know how to get 12 inches to 2.5 feet.
+Betty is 12 inches shorter than Carter.  Betty is 24 inches shorter than Carter
+Correct Answer: Carter is twice as tall as 24” dog so he is 2*24 = <<2*24=48>>48”
+Betty is 12” shorter than Carter so Betty is 48-12 = <<48-12=36>>36” tall
+12" is the same as 1 foot so Betty is 36/12 = 3 feet tall
+#### 3
+Correct: True
+
+==============983 / 1000====================
+
+{'generation': '\n5 kangaroos for each koala\nIf Legoland has 180 kangaroos, then 180/5 = 36\n36 kangaroos and 180 koalas\nWhat is the total number of koalas and kangaroos?\nHow many koalas are there?\nHow many kangaroos are there?\nHow many kangaroos are there for every koala?\nWhat is the total number of koalas and kangaroos together?\nWhat is the total number of koalas and kangaroos?\nWhat is the total number of koalas and kangaroos altogether?\nHow many kangaroos are there for every koala at Legoland?\nHow many koalas are there for every kangaroo at Legoland?\nWhat is the total number of koalas and kangaroos together at Legoland?\nHow many ko'}
+final_answer:  216
+Problem: Legoland has 5 kangaroos for each koala. If Legoland has 180 kangaroos, how many koalas and kangaroos are there altogether?
+Model Response: 
+5 kangaroos for each koala
+If Legoland has 180 kangaroos, then 180/5 = 36
+36 kangaroos and 180 koalas
+What is the total number of koalas and kangaroos?
+How many koalas are there?
+How many kangaroos are there?
+How many kangaroos are there for every koala?
+What is the total number of koalas and kangaroos together?
+What is the total number of koalas and kangaroos?
+What is the total number of koalas and kangaroos altogether?
+How many kangaroos are there for every koala at Legoland?
+How many koalas are there for every kangaroo at Legoland?
+What is the total number of koalas and kangaroos together at Legoland?
+How many ko
+Correct Answer: For every 5 kangaroos, there is one koala, meaning for the 180 kangaroos, there are 180/5 = <<180/5=36>>36 koalas.
+Altogether, there are 36+180 = <<36+180=216>>216 koalas and kangaroos.
+#### 216
+Correct: False
+
+==============984 / 1000====================
+
+{'generation': "\nasked by Ms. Sue\nI got 18 but the answer is 21\nPosted by Ms. Sue on 12/15/2010 at 07:38\nI got 18 but the answer is 21.\nPosted by Ms. Sue on 12/15/2010 at 07:38 |\nThis is a good question, but it's not a good one to be asking on a math site. You're not supposed to be doing your homework here.\nYou should be able to figure out how many pages will be crumpled, how many will be blurred, and how many will be neither.\nIt sounds like you're having trouble with the math, though.\nPosted by Ms. Sue on 12/15/2010 at 07:38\nI'm not sure what you mean"}
+final_answer:  24
+Problem: James has an old printer that crumples every seventh page and blurs the ink on every third page. If he prints 42 pages, how many are neither crumpled or blurred?
+Model Response: 
+asked by Ms. Sue
+I got 18 but the answer is 21
+Posted by Ms. Sue on 12/15/2010 at 07:38
+I got 18 but the answer is 21.
+Posted by Ms. Sue on 12/15/2010 at 07:38 |
+This is a good question, but it's not a good one to be asking on a math site. You're not supposed to be doing your homework here.
+You should be able to figure out how many pages will be crumpled, how many will be blurred, and how many will be neither.
+It sounds like you're having trouble with the math, though.
+Posted by Ms. Sue on 12/15/2010 at 07:38
+I'm not sure what you mean
+Correct Answer: First find the total number of pages that are crumpled: 42 pages / 7 = <<42/7=6>>6 pages
+Then find the total number of pages that are blurred: 42 pages / 3 = <<42/3=14>>14 pages
+Then find the number of pages that are both blurred and crumpled by finding how many numbers are less or equal to 42 and divisible by both 3 and 7: there are two, 21 and 42.
+Then subtract the number of crumpled and blurred pages from the total number of pages, and add the number of pages that were double-counted because they were both blurred and crumpled: 42 pages - 6 pages - 14 pages + 2 pages = <<42-6-14+2=24>>24 pages
+#### 24
+Correct: False
+
+==============985 / 1000====================
+
+{'generation': '\nSusannah went 24 times and Camden went 16 times.\nIf the number of times they went throughout the month was divided equally among 4 weeks, Camden went 4 times a week.\nSusannah went 24 times and Camden went 16 times. If the number of times they went throughout the month was divided equally among 4 weeks, Camden went 4 times a week. Therefore, Susannah went 6 more times a week than Camden.\nWhat is the median of the following set of numbers: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23'}
+final_answer:  2
+Problem: Camden went swimming 16 times in March and Susannah went 24 times. If the number of times they went throughout the month was divided equally among 4 weeks, how many more times a week did Susannah swim than Camden?
+Model Response: 
+Susannah went 24 times and Camden went 16 times.
+If the number of times they went throughout the month was divided equally among 4 weeks, Camden went 4 times a week.
+Susannah went 24 times and Camden went 16 times. If the number of times they went throughout the month was divided equally among 4 weeks, Camden went 4 times a week. Therefore, Susannah went 6 more times a week than Camden.
+What is the median of the following set of numbers: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23
+Correct Answer: Camden went swimming 16/4 = <<16/4=4>>4 times a week
+Susannah went swimming 24/4 = <<24/4=6>>6 times a week
+Susannah went 6 - 4 = <<6-4=2>>2 more times a week than Camden
+#### 2
+Correct: True
+
+==============986 / 1000====================
+
+{'generation': '\n(A) $25 (B) $15 (C) $10 (D) $5 (E) $0\nIf Lucy would give Linda $5, Lucy would have the same amount of money as Linda.\nIf Lucy originally had $20, how much money did Linda have at the beginning?\nIf Lucy originally had $20, then Linda originally had $20 + $5 = $25.\nIf Lucy originally had $20, then Linda originally had $20 + $5 = $25. This is the answer.\nLinda has $25, and Lucy has $20.\nLinda has $25, and Lucy has $20. So, Linda has $5 more than Lucy.\nLinda has $25, and Lucy has $20. So, Linda has $5 more than Lucy. This is the answer.\nIf Lucy originally had $20, then Linda originally had $20'}
+final_answer:  10
+Problem: If Lucy would give Linda $5, Lucy would have the same amount of money as Linda. If Lucy originally had $20, how much money did Linda have at the beginning?
+Model Response: 
+(A) $25 (B) $15 (C) $10 (D) $5 (E) $0
+If Lucy would give Linda $5, Lucy would have the same amount of money as Linda.
+If Lucy originally had $20, how much money did Linda have at the beginning?
+If Lucy originally had $20, then Linda originally had $20 + $5 = $25.
+If Lucy originally had $20, then Linda originally had $20 + $5 = $25. This is the answer.
+Linda has $25, and Lucy has $20.
+Linda has $25, and Lucy has $20. So, Linda has $5 more than Lucy.
+Linda has $25, and Lucy has $20. So, Linda has $5 more than Lucy. This is the answer.
+If Lucy originally had $20, then Linda originally had $20
+Correct Answer: After giving $5, Lucy has $20 - $5 = $<<20-5=15>>15 left.
+Since Linda has $15 after receiving $5, then she had $15 - $5 = $<<15-5=10>>10 at the beginning.
+#### 10
+Correct: True
+
+==============987 / 1000====================
+
+{'generation': '\nAnswer: The volume of the box is 144 cubic inches.\nThe volume of the box is the product of the length, width and height of the box.\nThe length of the box is 3 times its height and 4 times its width.\nThe length of the box is 3 times its height and 4 times its width. The length of the box is 12 inches.\nThe length of the box is 12 inches.\nThe length of the box is 12 inches. The length of the box is 3 times its height and 4 times its width.\nThe length of the box is 3 times its height and 4 times its width. The length of the box is 12 inches. The length of the box is 3 times its height and 4 times its width.\nThe length of the box is 12 inches. The length of the box is 3 times its height and 4 times its width. The length of the box is 12 inches'}
+final_answer:  3,888
+Problem: Justin has a box that is 12 inches in height. The length of the box is 3 times its height and 4 times its width. What is the volume of the box?
+Model Response: 
+Answer: The volume of the box is 144 cubic inches.
+The volume of the box is the product of the length, width and height of the box.
+The length of the box is 3 times its height and 4 times its width.
+The length of the box is 3 times its height and 4 times its width. The length of the box is 12 inches.
+The length of the box is 12 inches.
+The length of the box is 12 inches. The length of the box is 3 times its height and 4 times its width.
+The length of the box is 3 times its height and 4 times its width. The length of the box is 12 inches. The length of the box is 3 times its height and 4 times its width.
+The length of the box is 12 inches. The length of the box is 3 times its height and 4 times its width. The length of the box is 12 inches
+Correct Answer: The length of the box is 3 x the height of 12 inches = <<3*12=36>>36 inches.
+The width of the box is 36 inches / 4 = <<36/4=9>>9 inches.
+The volume of the box is the height of 12 inches x the length of 36 inches x the width of 9 inches = <<12*36*9=3888>>3,888 cubic inches.
+#### 3,888
+Correct: False
+
+==============988 / 1000====================
+
+{'generation': '\nI will draw a table of data.\nI will fill in the data and calculate the number of trips.\nI will solve the problem.\nCaleb and Cynthia are filling up their inflatable pool with water using buckets. They fill their buckets at the spigot and carry them to the pool. Caleb can add 7 gallons from his bucket and Cynthia can add 8 gallons from her bucket each trip. It will take 105 gallons to fill the pool. How many trips will it take for Caleb and Cynthia to fill the pool with their buckets?\nI will draw a table of data. I will'}
+final_answer:  7
+Problem: Caleb and Cynthia are filling up their inflatable pool with water using buckets. They fill their buckets at the spigot and carry them to the pool. Caleb can add 7 gallons from his bucket and Cynthia can add 8 gallons from her bucket each trip. It will take 105 gallons to fill the pool. How many trips will it take for Caleb and Cynthia to fill the pool with their buckets?
+Model Response: 
+I will draw a table of data.
+I will fill in the data and calculate the number of trips.
+I will solve the problem.
+Caleb and Cynthia are filling up their inflatable pool with water using buckets. They fill their buckets at the spigot and carry them to the pool. Caleb can add 7 gallons from his bucket and Cynthia can add 8 gallons from her bucket each trip. It will take 105 gallons to fill the pool. How many trips will it take for Caleb and Cynthia to fill the pool with their buckets?
+I will draw a table of data. I will
+Correct Answer: Each trip, they add Caleb’s 7 gallons + Cynthia’s 8 gallons = <<7+8=15>>15 gallons.
+Since they are adding 15 gallons every trip, to fill the 105-gallon pool, it would take 105 / 15 = <<105/15=7>>7 trips.
+#### 7
+Correct: True
+
+==============989 / 1000====================
+
+{'generation': '\nGrace mowed lawns for 63 hours, pulled weeds for 9 hours and put down mulch for 10 hours.\nGrace started her own landscaping business.\nShe charges $6 an hour for mowing lawns, $11 for pulling weeds and $9 for putting down mulch.\nIn September she mowed lawns for 63 hours, pulled weeds for 9 hours and put down mulch for 10 hours.\nGrace earned $63 for mowing lawns, $9 for pulling weeds and $90 for putting down mulch.\nIn September she earned $162.\nHow much money did she earn in September?\nThe number of hours worked for mowing lawns is '}
+final_answer:  567
+Problem: Grace started her own landscaping business. She charges $6 an hour for mowing lawns, $11 for pulling weeds and $9 for putting down mulch. In September she mowed lawns for 63 hours, pulled weeds for 9 hours and put down mulch for 10 hours. How much money did she earn in September?
+Model Response: 
+Grace mowed lawns for 63 hours, pulled weeds for 9 hours and put down mulch for 10 hours.
+Grace started her own landscaping business.
+She charges $6 an hour for mowing lawns, $11 for pulling weeds and $9 for putting down mulch.
+In September she mowed lawns for 63 hours, pulled weeds for 9 hours and put down mulch for 10 hours.
+Grace earned $63 for mowing lawns, $9 for pulling weeds and $90 for putting down mulch.
+In September she earned $162.
+How much money did she earn in September?
+The number of hours worked for mowing lawns is 
+Correct Answer: Grace mowed lawns for 63 hours at $6/hour, so earned 63 * 6 = $<<63*6=378>>378.
+Grace pulled weeds for 9 hours at $11/hour, so earned 9 * 11 = $<<9*11=99>>99.
+Grace put down mulch for 10 hours at $9/hour, so earned 10 * 9 = $<<10*9=90>>90.
+During September Grace earned $378 + $99 + $90 = $<<378+99+90=567>>567.
+#### 567
+Correct: False
+
+==============990 / 1000====================
+
+{'generation': '\nLet the unicorns walk at a rate of 1 meter per second.\nThe unicorns will be walking for 9 kilometers, so 9 kilometers / 1 meter per second = 9 seconds.\n1 meter / 1 second = 1 meter per second.\n1 meter / 1 second = 1 meter per second.\n1 meter / 1 second = 1 meter per second.\n1 meter / 1 second = 1 meter per second.\n1 meter / 1 second = 1 meter per second.\n1 meter / 1 second = 1 meter per second.\n1 meter / 1 second = 1 meter per second.\n1 meter / 1 second = 1 meter per second.\n1 meter / 1 second = 1 meter'}
+final_answer:  72000
+Problem: There are six unicorns in the Enchanted Forest. Everywhere a unicorn steps, four flowers spring into bloom. The six unicorns are going to walk all the way across the forest side-by-side, a journey of 9 kilometers. If each unicorn moves 3 meters forward with each step, how many flowers bloom because of this trip?
+Model Response: 
+Let the unicorns walk at a rate of 1 meter per second.
+The unicorns will be walking for 9 kilometers, so 9 kilometers / 1 meter per second = 9 seconds.
+1 meter / 1 second = 1 meter per second.
+1 meter / 1 second = 1 meter per second.
+1 meter / 1 second = 1 meter per second.
+1 meter / 1 second = 1 meter per second.
+1 meter / 1 second = 1 meter per second.
+1 meter / 1 second = 1 meter per second.
+1 meter / 1 second = 1 meter per second.
+1 meter / 1 second = 1 meter per second.
+1 meter / 1 second = 1 meter
+Correct Answer: First convert the total length of the journey from kilometers to meters: 9 kilometers * 1000 meters/kilometer = <<9*1000=9000>>9000 meters
+Then divide this by the length of one step to find the number of steps in the journey: 9000 meters / 3 meters/step = <<9000/3=3000>>3000 steps
+Then multiply the number of steps by the number of flowers per step to find how many flowers one unicorn creates on the journey: 3000 steps * 4 flowers/step = <<3000*4=12000>>12000 flowers
+Then multiply the number of flowers per unicorn by the number of unicorns to find the total number of flowers created: 12000 flowers/unicorn * 6 unicorns = 72,000 flowers
+#### 72000
+Correct: False
+
+==============991 / 1000====================
+
+{'generation': '\n4 bananas make 1 cup of mush. 20 bananas make 8 cups of mush. So 8 cups of mush = 3 cups of flour.'}
+final_answer:  15
+Problem: Hannah is making banana bread. She needs to use 3 cups of flour for every cup of banana mush. It takes 4 bananas to make one cup of mush. If Hannah uses 20 bananas, how many cups of flour should she use?
+Model Response: 
+4 bananas make 1 cup of mush. 20 bananas make 8 cups of mush. So 8 cups of mush = 3 cups of flour.
+Correct Answer: First find the number of cups of banana mush Hannah gets: 20 bananas / 4 bananas/cup = <<20/4=5>>5 cups
+Then multiply the number of cups of mush by the ratio of flour to mush to find the number of cups of flour: 5 cups mush * 3 cups flour/1 cup mush = <<5*3=15>>15 cups flour
+#### 15
+Correct: False
+
+==============992 / 1000====================
+
+{'generation': "\nThe number of cards Rick gave to Miguel is 18.\nStep 1: Determine the number of cards given to each of Rick's sisters.\nThe number of cards Rick gave to Miguel is 18.\nStep 2: Determine the number of cards Rick gave to his 8 friends.\nStep 3: Determine the number of cards Rick gave to his sisters.\nThe number of cards Rick gave to his sisters is 15.\nStep 4: Determine the number of cards Rick kept.\nThe number of cards Rick kept is 130 - 15 - 8 x 12 = 121.\nStep 5: Determine the number of cards Miguel received.\nThe number of cards Miguel received is 1"}
+final_answer:  13
+Problem: Rick has 130 cards. He decided to only keep 15 cards and so he gave Miguel some of the cards. Then, he saw 8 friends and decided to give them 12 cards each, and the remaining cards were given equally to his 2 sisters. If each of Rick's sisters got 3 cards, how many cards did Rick give to Miguel?
+Model Response: 
+The number of cards Rick gave to Miguel is 18.
+Step 1: Determine the number of cards given to each of Rick's sisters.
+The number of cards Rick gave to Miguel is 18.
+Step 2: Determine the number of cards Rick gave to his 8 friends.
+Step 3: Determine the number of cards Rick gave to his sisters.
+The number of cards Rick gave to his sisters is 15.
+Step 4: Determine the number of cards Rick kept.
+The number of cards Rick kept is 130 - 15 - 8 x 12 = 121.
+Step 5: Determine the number of cards Miguel received.
+The number of cards Miguel received is 1
+Correct Answer: After keeping 15 cards, Rick had 130 cards - 15 cards = 115 cards left.
+The total number of cards given by Rick to his 8 friends was 8 friends x 12 cards/friend = <<8*12=96>>96 cards.
+There were 2 sisters x 3 cards/sister = <<2*3=6>>6 cards given to Rick's sisters.
+So, there were 96 cards + 6 cards = <<96+6=102>>102 cards left after Rick gave Miguel some cards.
+Therefore, 115 cards - 102 cards = <<115-102=13>>13 cards were given to Miguel.
+#### 13
+Correct: True
+
+==============993 / 1000====================
+
+{'generation': '\nDean ordered 2 large pizzas that were each cut into 12 slices.  His friends Frank and Sammy came over to enjoy some pizza and watch a movie.  Dean was hungry and ate half of the Hawaiian pizza.  Frank only ate 3 slices of Hawaiian pizza and Sammy ate a third of the cheese pizza.  How many total slices were left over?\nDean ordered 2 large pizzas that were each cut into 12 slices.  His friends Frank and Sammy came over to enjoy some pizza and watch a movie.  Dean was hungry and ate half of the Hawaiian pizza.  Frank only ate 3 slices of Hawaiian p'}
+final_answer:  11
+Problem: Dean ordered 2 large pizzas that were each cut into 12 slices.  His friends Frank and Sammy came over to enjoy some pizza and watch a movie.  Dean was hungry and ate half of the Hawaiian pizza.  Frank only ate 3 slices of Hawaiian pizza and Sammy ate a third of the cheese pizza.  How many total slices were left over?
+Model Response: 
+Dean ordered 2 large pizzas that were each cut into 12 slices.  His friends Frank and Sammy came over to enjoy some pizza and watch a movie.  Dean was hungry and ate half of the Hawaiian pizza.  Frank only ate 3 slices of Hawaiian pizza and Sammy ate a third of the cheese pizza.  How many total slices were left over?
+Dean ordered 2 large pizzas that were each cut into 12 slices.  His friends Frank and Sammy came over to enjoy some pizza and watch a movie.  Dean was hungry and ate half of the Hawaiian pizza.  Frank only ate 3 slices of Hawaiian p
+Correct Answer: 2 pizzas were ordered and had 12 slices each for a total of 2*12 = <<2*12=24>>24 slices
+Dean ate 1/2 of a 12 sliced pizza so 12/2 = <<12/2=6>>6 slices were left over
+Sammy ate 1/3 of a 12 sliced pizza so 12/3 = <<12/3=4>>4 slices were left over
+Dean ate 6 slices, Sammy ate 4 and Frank had 3 so 6+4+3 = <<6+4+3=13>>13
+They started with 24 slices and 13 slices so 24-13 = <<24-13=11>>11 slices left
+#### 11
+Correct: False
+
+==============994 / 1000====================
+
+{'generation': '\nThe 17th of August is a very special day for them.'}
+final_answer:  28
+Problem: Josh and Anna were both born on August 17th, but in different years. To consolidate celebrations they also got married on August 17 when Josh turned 22. If today they're celebrating 30 years of marriage and their combined age is exactly 5 times what Josh's age was when they married, how old was Anna when they got married?
+Model Response: 
+The 17th of August is a very special day for them.
+Correct Answer: We know that Josh must be 30 years older than his age when they got married, therefore he is 30 + 22 = <<30+22=52>>52 years old today
+If their current combined age is 5 times the age Josh was when they married (22), then their total combined age is 5 * 22 = <<5*22=110>>110 years
+That means that Anna must be 110 - 52 = <<110-52=58>>58 years old today
+If they married 30 years ago, Anna must have been 58 - 30 = <<58-30=28>>28 years old when they married
+#### 28
+Correct: False
+
+==============995 / 1000====================
+
+{'generation': ''}
+final_answer:  163
+Problem: A club opens up and charges $20 to enter.  James buys 2 rounds for his 5 friends.  He also buys 6 drinks for himself. Drinks cost $6 each.  He decides to eat some food so he orders some fried chicken which costs $14.  He leaves a 30% tip on everything he orders.  How much did he spend for the night?
+Model Response: 
+Correct Answer: He buys 2*5=<<2*5=10>>10 drinks for his friends
+So he orders 10+6=<<10+6=16>>16 total drinks.
+The cost of the drinks was 16*6=$<<16*6=96>>96
+So his order came out to 96+14=$<<96+14=110>>110
+The tip came out to 110*.3=$<<110*.3=33>>33
+So his order cost 110+33=$<<110+33=143>>143
+Adding in the cover charge means it cost 143+20=$<<143+20=163>>163
+#### 163
+Correct: False
+
+==============996 / 1000====================
+
+{'generation': '\nIttymangnark and Kingnook are an Eskimo couple living in the most northern region of the Alaskan wilderness. Together, they live with their child, Oomyapeck. Every day Ittymangnark catches enough fish for the three of them to eat for the day and they split the fish equally between the three of them. But after they have split the fish, they give Oomyapeck all of the eyes, who gives two of the eyes to'}
+final_answer:  4
+Problem: Ittymangnark and Kingnook are an Eskimo couple living in the most northern region of the Alaskan wilderness.  Together, they live with their child, Oomyapeck.  Every day Ittymangnark catches enough fish for the three of them to eat for the day and they split the fish equally between the three of them.  But after they have split the fish, they give Oomyapeck all of the eyes, who gives two of the eyes to his dog and eats the rest himself.  How many fish will each of them be given to eat if Oomyapeck eats 22 eyes in a day?
+Model Response: 
+Ittymangnark and Kingnook are an Eskimo couple living in the most northern region of the Alaskan wilderness. Together, they live with their child, Oomyapeck. Every day Ittymangnark catches enough fish for the three of them to eat for the day and they split the fish equally between the three of them. But after they have split the fish, they give Oomyapeck all of the eyes, who gives two of the eyes to
+Correct Answer: If the dog eats two eyes and Oomyapeck eats 22 eyes, then there are a total of 2+22=<<2+22=24>>24 eyes.
+With 2 eyes per fish, 24 eyes represent 24/2=<<24/2=12>>12 fish.
+If they split that number of fish equally amongst the three of them, then each of them will be given 12/3=<<12/3=4>>4 fish to eat.
+#### 4
+Correct: False
+
+==============997 / 1000====================
+
+{'generation': " What is the total amount of water she will use to fill the pool?\nA)\t14 hours\nB)\t15 hours\nC)\t16 hours\nD)\t17 hours\nE)\t18 hours\nThe answer is C, 16 hours.\nLet's look at the problem:\nLet x be the amount of time it takes to fill the pool.\nWe know that the pool holds 60 gallons of water, so we can say that the pool holds 60 gallons of water.\nWe know that the pool holds 60 gallons of water, so we can say that the pool holds 60 gallons of water.\nWe know that the pool holds "}
+final_answer:  40
+Problem: Lydia has a small pool she uses to bathe her dogs.  When full, the pool holds 60 gallons of water.  She fills her pool using the garden hose, which provides water at the rate of 1.6 gallons per minute.  Unfortunately, her pool has a small hole that leaks water at a rate of 0.1 gallons per minute.  How long will it take for her to fill the pool, in minutes?
+Model Response:  What is the total amount of water she will use to fill the pool?
+A)      14 hours
+B)      15 hours
+C)      16 hours
+D)      17 hours
+E)      18 hours
+The answer is C, 16 hours.
+Let's look at the problem:
+Let x be the amount of time it takes to fill the pool.
+We know that the pool holds 60 gallons of water, so we can say that the pool holds 60 gallons of water.
+We know that the pool holds 60 gallons of water, so we can say that the pool holds 60 gallons of water.
+We know that the pool holds 
+Correct Answer: With a garden hose that fills at a rate of 1.6 gallons per minute, and a hole that leaks at 0.1 gallons per minute, the net fill rate becomes 1.6-0.1=<<1.6-0.1=1.5>>1.5 gallons per minute.
+Therefore, to fill a 60-gallon pool, it will take 60/1.5=<<60/1.5=40>>40 minutes.
+#### 40
+Correct: False
+
+==============998 / 1000====================
+
+{'generation': '\nThe class fund has $120.\nThe field trip cost $7 per student.\nThere were 20 students in the class.\nThe total cost of the field trip was $140.\nThere was $50 left in the fund after the field trip.\nThe total amount of money in the fund is $120.\nThe cost of the field trip is $7.\nThere are 20 students in the class.\nThe total cost of the field trip is $140.\nThe fund has $50 left after the field trip.\nThe total amount of money in the fund is $120.'}
+final_answer:  10
+Problem: Miss Grayson's class raised $50 for their field trip. Aside from that, each of her students contributed $5 each. There are 20 students in her class, and the cost of the trip is $7 for each student. After all the field trip costs were paid, how much is left in Miss Grayson's class fund?
+Model Response: 
+The class fund has $120.
+The field trip cost $7 per student.
+There were 20 students in the class.
+The total cost of the field trip was $140.
+There was $50 left in the fund after the field trip.
+The total amount of money in the fund is $120.
+The cost of the field trip is $7.
+There are 20 students in the class.
+The total cost of the field trip is $140.
+The fund has $50 left after the field trip.
+The total amount of money in the fund is $120.
+Correct Answer: The contribution of the students amounted to $5 x 20 = $<<5*20=100>>100.
+So Miss Grayson's class had $100 + $50 = $<<100+50=150>>150 in all.
+The cost of the field trip amounted to $7 x 20 = $<<7*20=140>>140.
+Therefore, the class of Miss Grayson is left with $150 - $140 = $<<150-140=10>>10.
+#### 10
+Correct: False
+
+==============999 / 1000====================
+
+Overall Accuracy: 0.20
+(llm) milesway@milesway-RTX:~/research/scientific_llm$ 
