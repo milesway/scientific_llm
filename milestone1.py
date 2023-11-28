@@ -29,7 +29,7 @@ def main(
     max_seq_len: int = None,
     max_gen_len: int = None,
     max_batch_size: int = 1,  # Default batch size set to 1
-    dataset_file: str = '/home/milesway/research/llama/llama/train.jsonl',
+    dataset_file: str = '/home/milesway/research/scientific_llm/train.jsonl',
 ):
     """
     Main function to initialize the model, load dataset, generate responses, and evaluate.
@@ -55,9 +55,11 @@ def main(
     # TODO: Temporarily set entry to 4 for testing
     # Load the dataset from the specified file and read the first 4 problems
     with open(dataset_file, 'r') as file:
-        problems = [json.loads(line) for line in file][:]
+        problems = [json.loads(line) for line in file][:1000]
 
     total_correct = 0
+    current_loop = 0
+    total_loops = len(problems)
 
     # Process and evaluate each problem
     for problem in problems:
@@ -82,7 +84,9 @@ def main(
         print(f"Model Response: {model_response}")
         print(f"Correct Answer: {correct_answer}")
         print(f"Correct: {is_correct}")
-        print("\n==================================\n")
+        print(f"\n=============={current_loop} / {total_loops}====================\n")
+
+        current_loop +=1
 
     # Calculate and display the overall accuracy
     accuracy = total_correct / len(problems)
