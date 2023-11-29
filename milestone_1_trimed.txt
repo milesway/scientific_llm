@@ -824,4 +824,3 @@ Correct: False
 ==============999 / 1000====================
 
 Overall Accuracy: 0.20
-(llm) milesway@milesway-RTX:~/research/scientific_llm$ 
