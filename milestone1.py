@@ -55,7 +55,7 @@ def main(
     # TODO: Temporarily set entry to 4 for testing
     # Load the dataset from the specified file and read the first 4 problems
     with open(dataset_file, 'r') as file:
-        problems = [json.loads(line) for line in file][:1000]
+        problems = [json.loads(line) for line in file][:]
 
     total_correct = 0
     current_loop = 0
