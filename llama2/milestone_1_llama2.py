@@ -29,7 +29,7 @@ def main(
     max_seq_len: int = None,
     max_gen_len: int = None,
     max_batch_size: int = 1,  # Default batch size set to 1
-    dataset_file: str = '/home/milesway/research/scientific_llm/train.jsonl',
+    dataset_file: str = '/home/milesway/research/scientific_llm/llama2/train.jsonl',
 ):
     """
     Main function to initialize the model, load dataset, generate responses, and evaluate.

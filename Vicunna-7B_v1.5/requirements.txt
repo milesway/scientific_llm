@@ -1,0 +1,3 @@
+torch
+openai
+fschat[model_worker,webui]

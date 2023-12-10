@@ -1,8 +1,8 @@
 # LARGE LANGUAGE MODELS FOR SCIENTIFIC PROBLEM SOLVING
 
-This project aims to delve deeper into the concepts of LLM scientific problem solving. By studying representative works, evaluating a known LLM, and enhancing its capabilities by different prompts, students will acquire a comprehensive understanding of current techniques and their limitations.
+This folder is for Llama-2 Implementation
 
-## Milestone
+## Download
 
 In order to download the model weights and tokenizer, please visit the [Meta website](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and accept License.
 
