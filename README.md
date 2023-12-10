@@ -40,3 +40,4 @@ Each folder has detailed comments for running the code. Please refer to the READ
     ```
     python 24.py --n_generate_sample=5 --method_select=greedy
     ```
+  * expected value around 5%. Note due to the randomness of LLMs, the results will differ for each run. 
