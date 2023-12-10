@@ -17,8 +17,8 @@ See `example_text_completion.py` for some examples.
 
 To illustrate, see the command below to run it with the llama-2-7b model (`nproc_per_node` needs to be set to the `MP` value):
 
-```
-CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 1 milestone1.py     --ckpt_dir llama-2-7b/     --tokenizer_path tokenizer.model     --max_seq_len 128 --max_batch_size 1
+```bash
+CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 1 milestone_1_llama2.py     --ckpt_dir llama-2-7b/     --tokenizer_path tokenizer.model     --max_seq_len 128 --max_batch_size 1
 ```
 
 ### Test for Milestone 1
