@@ -1,4 +1,4 @@
-# LARGE LANGUAGE MODELS FOR SCIENTIFIC PROBLEM SOLVING
+# LARGE LANGUAGE MODELS FOR SCIENTIFIC PROBLEM SOLVING (Team LM3)
 
 This project aims to delve deeper into the concepts of LLM scientific problem solving. By studying representative works, evaluating a known LLM, and enhancing its capabilities by different prompts, students will acquire a comprehensive understanding of current techniques and their limitations.
 
