@@ -14,12 +14,18 @@ Each folder has detailed comments for running the code. Please refer to the READ
 
         * Expected value 14.6% accuary.
     
-    * [`Game 24`](https://www.4nums.com/game/difficulties/) with Vicunna-7B
+    * [`Game 24`](https://www.4nums.com/game/difficulties/) with Vicuna-7B
 
         * Game of 24 is a mathematical reasoning challenge, where the goal is to use 4 numbers and basic arithmetic operations (+-*/) to obtain 24. For example, given input “4 9 10 13”, a solution output could be “(10 - 4) * (13 - 9) = 24”.
 
         * Expected value 0%. 
 
 - Milestone2:
+   * In order to reproduce our results for milestone 2, you can simply use the prompts shown in our report and use that as input to the Vicuna-7B model. One example is: *Use basic arithmetic operations (+ - * /) to obtain 24 from the following 4 numbers step by step. For each step, you are only allowed to choose two of the remaining numbers to obtain a new number. Input: 4, 5, 6, 10*
+   * Expected value close to 0%.
 
 - Milestone3:
+  * Our results for milestone 3 can be simply reproduced by running the following command
+    ```
+    python 24.py --n_generate_sample=5 --method_select=greedy
+    ```
