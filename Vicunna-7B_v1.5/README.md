@@ -62,9 +62,7 @@ python scientific_llm/Vicunna-7B_v1.5/milestone_1_Vicunna_strightforward.py
 ## Test for Milestone 1
  -  [`Game 24`](https://www.4nums.com/game/difficulties/)
 
-    - Game of 24 is a mathematical reasoning challenge, where the goal is to use 4 numbers and basic arithmetic operations (+-*/) to obtain 24. For example, given input “4 9 10 13”, a solution output
-􏰱􏰮􏰧􏰲 􏰀􏰡􏰳􏰳 􏱅􏰧􏰥􏱇􏱅􏱈 􏱜􏰡􏱈􏱏 􏰤􏰥􏰦􏰥􏰧
-could be “(10 - 4) * (13 - 9) = 24”.
+    - Game of 24 is a mathematical reasoning challenge, where the goal is to use 4 numbers and basic arithmetic operations (+-*/) to obtain 24. For example, given input “4 9 10 13”, a solution output could be “(10 - 4) * (13 - 9) = 24”
 
     - Expected value 0%.
 
