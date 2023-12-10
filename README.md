@@ -2,6 +2,17 @@
 
 This project aims to delve deeper into the concepts of LLM scientific problem solving. By studying representative works, evaluating a known LLM, and enhancing its capabilities by different prompts, students will acquire a comprehensive understanding of current techniques and their limitations.
 
+## Setting up the environment
+In order to setup the development environment, we have provided an environment.yml file to quickly install all the required packages. Run the following command to create it.
+```
+conda env create -f environment.yml
+```
+After that run the following command to activate the environment
+```
+conda activate llm
+```
+
+
 ## Milestone
 
 Each folder has detailed comments for running the code. Please refer to the README in folder.
