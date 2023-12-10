@@ -4,61 +4,21 @@ This project aims to delve deeper into the concepts of LLM scientific problem so
 
 ## Milestone
 
-In order to download the model weights and tokenizer, please visit the [Meta website](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and accept License.
+Each folder has detailed comments for running the code. Please refer to the README in folder.
 
-Once request is approved, run the download.sh script, passing the URL provided when prompted to start the download.
+Milestone1:
+    - [`Grad School Math`](https://github.com/openai/grade-school-math) with Llama2 (https://huggingface.co/meta-llama/Llama-2-7b)
 
-Pre-requisites: Make sure you have `wget` and `md5sum` installed. Then to run the script: `./download.sh`.
+        - GSM8K consists of 8.5K high quality grade school math problems created by human problem writers. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ - / *) to reach the final answer. A bright middle school student should be able to solve every problem.
 
+        - Expected value 14.6% accuary.
+    
+    - [`Game 24`](https://www.4nums.com/game/difficulties/) with Vicunna-7B
 
-## Quick Start
+        - Game of 24 is a mathematical reasoning challenge, where the goal is to use 4 numbers and basic arithmetic operations (+-*/) to obtain 24. For example, given input “4 9 10 13”, a solution output could be “(10 - 4) * (13 - 9) = 24”.
 
-See `example_text_completion.py` for some examples. 
+    - Expected value 0%. 
 
-To illustrate, see the command below to run it with the llama-2-7b model (`nproc_per_node` needs to be set to the `MP` value):
+Milestone2:
 
-```
-CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node 1 milestone1.py     --ckpt_dir llama-2-7b/     --tokenizer_path tokenizer.model     --max_seq_len 128 --max_batch_size 1
-```
-
-### Test for Milestone 1
- -  [`Grad School Math`](https://github.com/openai/grade-school-math)
-
-    - GSM8K consists of 8.5K high quality grade school math problems created by human problem writers. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ - / *) to reach the final answer. A bright middle school student should be able to solve every problem.
-
-    - Expected value 14.6% accuary. (https://huggingface.co/meta-llama/Llama-2-7b)
-
-### Fine-tuned Chat Models
-
-The fine-tuned models were trained for dialogue applications. To get the expected features and performance for them, a specific formatting defined in [`chat_completion`](https://github.com/facebookresearch/llama/blob/main/llama/generation.py#L212)
-needs to be followed, including the `INST` and `<<SYS>>` tags, `BOS` and `EOS` tokens, and the whitespaces and breaklines in between (we recommend calling `strip()` on inputs to avoid double-spaces).
-
-You can also deploy additional classifiers for filtering out inputs and outputs that are deemed unsafe.
-
-Examples using llama-2-7b-chat:
-
-```
-torchrun --nproc_per_node 1 example_chat_completion.py \
-    --ckpt_dir llama-2-7b-chat/ \
-    --tokenizer_path tokenizer.model \
-    --max_seq_len 512 --max_batch_size 6
-```
-
-### Inference
-
-Different models require different model-parallel (MP) values:
-
-|  Model | MP |
-|--------|----|
-| 7B     | 1  |
-| 13B    | 2  |
-| 70B    | 8  |
-
-
-
-## References
-
-1. [Research Paper](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
-2. [Llama 2 technical overview](https://ai.meta.com/resources/models-and-libraries/llama)
-3. [Open Innovation AI Research Community](https://ai.meta.com/llama/open-innovation-ai-research-community/)
-
+Milestone3:
